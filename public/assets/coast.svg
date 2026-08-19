@@ -1,0 +1,34 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 120 90"
+  width="120"
+  height="90"
+  role="img"
+  aria-label="Coastal landscape"
+>
+  <path
+    d="M8 60 Q28 50 48 60 T88 60 T118 60"
+    fill="none"
+    stroke="#1e1c19"
+    stroke-width="1.2"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M8 70 Q28 60 48 70 T88 70 T118 70"
+    fill="none"
+    stroke="#1e1c19"
+    stroke-width="1.2"
+    stroke-linecap="round"
+    opacity="0.5"
+  />
+
+  <circle
+    cx="90"
+    cy="26"
+    r="12"
+    fill="none"
+    stroke="#1e1c19"
+    stroke-width="1.2"
+  />
+</svg>
