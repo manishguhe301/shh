@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <header className="sticky top-0 z-50 border-b border-ink/10 bg-linen/90 backdrop-blur">
       <Container className="flex h-20 items-center justify-between">
-        <a href="#" className="flex items-center gap-3">
+        <a href="#top" className="flex items-center gap-3">
           <Image
             src='/assets/moth.svg'
             alt='logo'
