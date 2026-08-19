@@ -1,0 +1,47 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 40 60"
+  width="40"
+  height="60"
+  role="img"
+  aria-label="Lit candle"
+>
+  <!-- Flame -->
+  <path
+    d="M20 4 C24 10 25 14 21 17 C18 19 18 13 20 4 Z"
+    fill="#5c2a34"
+  />
+
+  <!-- Wick -->
+  <rect
+    x="18.5"
+    y="16"
+    width="3"
+    height="6"
+    fill="#aca598"
+  />
+
+  <!-- Candle -->
+  <rect
+    x="10"
+    y="22"
+    width="20"
+    height="34"
+    rx="2"
+    fill="#d9d4c6"
+    stroke="#1e1c19"
+    stroke-width="1"
+    opacity="0.9"
+  />
+
+  <!-- Candle detail -->
+  <line
+    x1="10"
+    y1="34"
+    x2="30"
+    y2="34"
+    stroke="#1e1c19"
+    stroke-width="0.6"
+    opacity="0.4"
+  />
+</svg>

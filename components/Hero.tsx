@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import Container from './Container'
+import WaveAnimation from './WaveAnimation'
 
 const Hero = () => {
   return (
@@ -41,6 +43,29 @@ const Hero = () => {
             >
               How it works
             </a>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center gap-8 lg:pt-10">
+          <div className="rounded-2xl border border-ink/10 bg-linen-deep/60 p-7">
+            <p className="text-xs uppercase tracking-[0.25em] text-stone">
+              Your noise, by the day
+            </p>
+            <WaveAnimation className="mt-6" />
+          </div>
+          <div className="flex items-center justify-between rounded-2xl border border-ink/10 bg-linen-deep/60 px-7 py-6">
+            <div>
+              <p className="text-xs uppercase tracking-[0.25em] text-stone">
+                Silence streak
+              </p>
+              <p className="mt-1 font-display text-4xl text-ink">21 days</p>
+            </div>
+            <Image
+              src='/assets/candle.svg'
+              alt='candle'
+              width={1}
+              height={56}
+              className='w-auto'
+            />
           </div>
         </div>
       </Container>
