@@ -4,6 +4,7 @@ import Leagues from "@/components/Leagues";
 import MechanicFlip from "@/components/MechanicFlip";
 import NavBar from "@/components/NavBar";
 import Stays from "@/components/Stays";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Stays />
         <Arrival />
         <Leagues />
+        <Testimonials/>
       </main>
     </div>
   );

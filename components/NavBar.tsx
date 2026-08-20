@@ -13,6 +13,10 @@ const LINKS = [
   {
     href: "#leagues",
     label: 'Leagues'
+  },
+  {
+    href:'#voices',
+    label:' Voices'
   }
 ]
 
