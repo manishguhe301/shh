@@ -5,6 +5,10 @@ const LINKS = [
   {
     href: '#practice',
     label: 'The Practice'
+  },
+  {
+    href: '#stays',
+    label: 'Stays'
   }
 ]
 
