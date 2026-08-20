@@ -1,4 +1,5 @@
 import Container from "./Container";
+import SectionHeader from "./SectionHeader";
 
 const FLIPS = [
   {
@@ -27,14 +28,19 @@ export default function MechanicFlip() {
   return (
     <section id="practice" className="border-y border-ink/10 bg-linen-deep/40 py-24 sm:py-28">
       <Container>
-        <div className="mx-auto max-w-xl text-center">
+        {/* <div className="mx-auto max-w-xl text-center">
           <p className="text-xs uppercase tracking-[0.3em] text-wine">
             Same app. Opposite goal.
           </p>
           <h2 className="mt-5 font-display text-4xl font-light text-ink sm:text-5xl">
             Every mechanic you know, pointed the other way.
           </h2>
-        </div>
+        </div> */}
+        <SectionHeader
+          title="Same app. Opposite goal."
+          desc="Every mechanic you know, pointed the other way."
+          containerStyles="mx-auto max-w-xl "
+        />
 
         <div className="mx-auto mt-16 max-w-3xl divide-y divide-ink/10 border-y border-ink/10">
           {FLIPS.map((f) => (
