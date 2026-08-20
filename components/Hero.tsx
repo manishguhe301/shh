@@ -32,13 +32,13 @@ const Hero = () => {
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-5">
             <a
-              href="#"
+              href="#stays"
               className="rounded-full bg-ink px-7 py-3.5 text-sm uppercase tracking-[0.15em] text-linen transition-colors hover:bg-wine"
             >
               Start your streak
             </a>
             <a
-              href="#"
+              href="#pratice"
               className="text-sm uppercase tracking-[0.15em] text-ink/60 underline decoration-ink/20 underline-offset-4 transition-colors hover:text-ink"
             >
               How it works
