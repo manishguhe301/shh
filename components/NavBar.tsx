@@ -9,6 +9,10 @@ const LINKS = [
   {
     href: '#stays',
     label: 'Stays'
+  },
+  {
+    href: "#leagues",
+    label: 'Leagues'
   }
 ]
 
