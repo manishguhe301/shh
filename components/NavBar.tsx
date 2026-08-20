@@ -2,7 +2,10 @@ import Image from 'next/image'
 import Container from './Container'
 
 const LINKS = [
-
+  {
+    href: '#practice',
+    label: 'The Practice'
+  }
 ]
 
 const NavBar = () => {
@@ -21,6 +24,17 @@ const NavBar = () => {
           </span>
         </a>
 
+        <nav className="hidden md:flex items-center gap-9">
+          {LINKS.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className="text-xs uppercase tracking-[0.18em] text-ink/60 transition-colors hover:text-ink"
+            >
+              {link.label}
+            </a>
+          ))}
+        </nav>
 
         <a
           href="#"
