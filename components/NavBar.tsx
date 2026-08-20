@@ -15,8 +15,12 @@ const LINKS = [
     label: 'Leagues'
   },
   {
-    href:'#voices',
-    label:' Voices'
+    href: '#voices',
+    label: 'Voices'
+  },
+  {
+    href: "#faq",
+    label: 'FAQ'
   }
 ]
 
@@ -49,7 +53,7 @@ const NavBar = () => {
         </nav>
 
         <a
-          href="#"
+          href="#stays"
           className="rounded-full border border-ink/20 px-5 py-2 text-xs uppercase tracking-[0.18em] text-ink transition-colors hover:border-wine hover:text-wine"
         >
           Begin
