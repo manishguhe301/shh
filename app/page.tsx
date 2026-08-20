@@ -1,5 +1,7 @@
 import Arrival from "@/components/Arrival";
+import CTA from "@/components/CTA";
 import FAQs from "@/components/FAQs";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Leagues from "@/components/Leagues";
 import MechanicFlip from "@/components/MechanicFlip";
@@ -19,6 +21,7 @@ export default function Home() {
         <Leagues />
         <Testimonials />
         <FAQs />
+        <CTA />
       </main>
     </div>
   );
