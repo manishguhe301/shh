@@ -1,26 +1,6 @@
+import { VOICES } from '@/utils/constants'
 import Container from './Container'
 import SectionHeader from './SectionHeader'
-
-const VOICES = [
-  {
-    quote:
-      "I run a language-learning startup, so the joke wasn't lost on me. What surprised me was how much I needed the actual thing.",
-    name: "R. Bhatt",
-    role: "Ridge House, 4 nights",
-  },
-  {
-    quote:
-      "My streak is at 63 days now. My family has started leaving notes instead of calling. Not sure that was the goal, but I'll take it.",
-    name: "S. Menon",
-    role: "Hush League member",
-  },
-  {
-    quote:
-      "There is no leaderboard in the Silence League. When I asked why, the host just looked at me. I understood.",
-    name: "A. Fernandes",
-    role: "Still League member",
-  },
-];
 
 const Testimonials = () => {
   return (

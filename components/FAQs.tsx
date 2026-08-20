@@ -1,28 +1,6 @@
+import { FAQS } from '@/utils/constants'
 import Container from './Container'
 import SectionHeader from './SectionHeader'
-
-const FAQS = [
-  {
-    que: "Is this actually run by the language app people?",
-    ans: "No — Shh. is an independent retreat brand built as a deliberate mirror of that kind of app: same streaks, same leagues, same daily nudge, aimed at the opposite behaviour.",
-  },
-  {
-    que: "What happens if I speak during a Still or Silence stay?",
-    ans: "Nothing punitive. Your streak resets, quietly, and a host notes it without comment. Most guests find that worse than any penalty.",
-  },
-  {
-    que: "Can I bring my phone at all?",
-    ans: "It stays at the front desk for the length of your stay. Whisper members may request one supervised hour daily; Hush and Still do not.",
-  },
-  {
-    que: "Do I need retreat experience to join?",
-    ans: "No. Most guests arrive from the Whisper League with zero background. The practice is designed to be boring at first, on purpose.",
-  },
-  {
-    que: "Is there a leaderboard for the Silence League?",
-    ans: "There is, technically. Almost no one checks it.",
-  },
-];
 
 const FAQs = () => {
   return (

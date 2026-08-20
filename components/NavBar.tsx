@@ -1,28 +1,6 @@
 import Image from 'next/image'
 import Container from './Container'
-
-const LINKS = [
-  {
-    href: '#practice',
-    label: 'The Practice'
-  },
-  {
-    href: '#stays',
-    label: 'Stays'
-  },
-  {
-    href: "#leagues",
-    label: 'Leagues'
-  },
-  {
-    href: '#voices',
-    label: 'Voices'
-  },
-  {
-    href: "#faq",
-    label: 'FAQ'
-  }
-]
+import { NAV_LINKS } from '@/utils/constants'
 
 const NavBar = () => {
   return (
@@ -41,7 +19,7 @@ const NavBar = () => {
         </a>
 
         <nav className="hidden md:flex items-center gap-9">
-          {LINKS.map((link) => (
+          {NAV_LINKS.map((link) => (
             <a
               key={link.href}
               href={link.href}
