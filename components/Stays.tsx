@@ -1,6 +1,15 @@
 import Container from './Container'
+import StayCard from './StayCard';
 
-const STAYS = [
+export type Stay = {
+  src: string,
+  name: string,
+  place: string,
+  desc: string,
+  nightly: string
+}
+
+const STAYS: Stay[] = [
   {
     src: '/assets/ridge.svg',
     name: "The Ridge House",
@@ -28,7 +37,7 @@ const STAYS = [
 const Stays = () => {
   return (
     <section id="stays" className="bg-linen py-24 sm:py-28">
-      <Container className="flex h-20 items-center justify-between">
+      <Container>
         <div className="mx-auto max-w-xl text-center">
           <p className="text-xs uppercase tracking-[0.3em] text-wine">
             Where to go quiet
@@ -37,6 +46,12 @@ const Stays = () => {
             Three houses. No talking.
           </h2>
         </div>
+
+        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {STAYS.map((s) => (
+            <StayCard stay={s} key={s.name} />
+          ))}
+        </div>
       </Container>
     </section>
   )
@@ -44,6 +59,3 @@ const Stays = () => {
 
 export default Stays
 
-const StayCard = () => {
-
-}
